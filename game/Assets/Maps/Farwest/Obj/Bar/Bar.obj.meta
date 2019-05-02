@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: c156cb9e85270ba40aeef1368e305629
+timeCreated: 1556613178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: default
+    400000: //RootNode
+    400002: default
+    2100000: None
+    2100002: Table
+    2100004: Table.001
+    2100006: Table.002
+    2100008: Table.003
+    2100010: Table.004
+    2100012: Bois
+    2100014: Bois.001
+    2100016: Bois.002
+    2100018: Mur
+    2100020: Mur.001
+    2100022: Mur.003
+    2100024: Mur.002
+    2100026: Mur.005
+    2100028: Mur.006
+    2100030: Mur.007
+    2100032: MurExt.001
+    2100034: MurExt.002
+    2100036: MurExt
+    2100038: MurIntDown
+    2100040: MurIntUp
+    2100042: MurIntHaut
+    2100044: Bois.003
+    2100046: Bois.004
+    2100048: Bois.005
+    2100050: Bois.006
+    2100052: Windows.001
+    2100054: Windows
+    2100056: Windows.002
+    2100058: Bois.011
+    2100060: Bois.007
+    2100062: MurIntDown.001
+    2100064: MurExt.003
+    2100066: MurIntHaut.001
+    2100068: Bois.012
+    2100070: Bois.013
+    2100072: Bois.014
+    2100074: Bois.015
+    2100076: Bois.016
+    2100078: Bois.017
+    2100080: Bois.018
+    2100082: Windows.003
+    2100084: Windows.004
+    2100086: MurIntUp.001
+    2100088: MurExt.004
+    2100090: Windows.006
+    2100092: Windows.005
+    2100094: Bois.021
+    2100096: Bois.022
+    2100098: MurIntUp.002
+    2100100: MurExt.005
+    2100102: Bois.023
+    2100104: MurExt.006
+    2100106: MurIntUp.003
+    2100108: Bois.025
+    2100110: Bois.026
+    2100112: MurExt.007
+    2100114: MurExt.008
+    2100116: Bois.028
+    2100118: Bois.030
+    2100120: MurIntHaut.002
+    2100122: MurIntDown.002
+    2300000: default
+    3300000: default
+    4300000: default
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

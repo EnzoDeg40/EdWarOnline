@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Farwest.unity
+  isLoaded: 1
+  isActive: 1
