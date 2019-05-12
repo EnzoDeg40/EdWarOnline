@@ -545,7 +545,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647541062301388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -20, y: 16, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4060925228072620}
@@ -824,7 +824,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.05
   far clip plane: 1000
   field of view: 100
   orthographic: 0
@@ -1428,6 +1428,15 @@ MonoBehaviour:
     bullets: 20
     reloadTime: 0.5
     graphics: {fileID: 1496857424072410, guid: 3420238da17455e48ac8f3ea32b56d19, type: 2}
+  sniperWeapon:
+    name: Sniper
+    damage: 100
+    range: 500
+    fireRate: 0
+    maxBullets: 1
+    bullets: 20
+    reloadTime: 10
+    graphics: {fileID: 1242540954095292, guid: 089de12c944e7604aaf219cb5d3d181b, type: 2}
   isReloading: 0
 --- !u!114 &114296528256768056
 MonoBehaviour:

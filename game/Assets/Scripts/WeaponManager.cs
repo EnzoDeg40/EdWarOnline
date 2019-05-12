@@ -16,6 +16,8 @@ public class WeaponManager : NetworkBehaviour {
     private PlayerWeapon secondWeapon;
     [SerializeField]
     private PlayerWeapon thirdWeapon;
+    [SerializeField]
+    private PlayerWeapon sniperWeapon;
 
     private PlayerWeapon currentWeapon;
     private WeaponGraphics currentGraphics;
@@ -33,23 +35,31 @@ public class WeaponManager : NetworkBehaviour {
     {
         if (isLocalPlayer)
         {
-            if (Input.GetKeyUp(KeyCode.E) && currentArm == 1)
+            if (Input.GetKeyUp(KeyCode.E) && currentArm == 1 || Input.GetKeyUp(KeyCode.Alpha1) || Input.GetMouseButtonDown(4) && currentArm == 1)
             {
                 EquipWeapon(primaryWeapon);
-                currentArm = 2;
+                currentArm++;
             }
             else{
-                if (Input.GetKeyUp(KeyCode.E) && currentArm == 2)
+                if (Input.GetKeyUp(KeyCode.E) && currentArm == 2 || Input.GetKeyUp(KeyCode.Alpha2) || Input.GetMouseButtonDown(4) && currentArm == 2)
                 {
                     EquipWeapon(secondWeapon);
-                    currentArm = 1;
+                    currentArm++;
                 }
                 else
                 {
-                    if (Input.GetKeyUp(KeyCode.E) && currentArm == 3)
+                    if (Input.GetKeyUp(KeyCode.E) && currentArm == 3 || Input.GetKeyUp(KeyCode.Alpha3) || Input.GetMouseButtonDown(4) && currentArm == 3)
                     {
                         EquipWeapon(thirdWeapon);
-                        currentArm = 1;
+                        currentArm++;
+                    }
+                    else
+                    {
+                        if (Input.GetKeyUp(KeyCode.E) && currentArm == 4 || Input.GetKeyUp(KeyCode.Alpha4) || Input.GetMouseButtonDown(4) && currentArm == 4)
+                        {
+                            EquipWeapon(sniperWeapon);
+                            currentArm = 1;
+                        }
                     }
                 }
             }
